@@ -66,7 +66,7 @@ jobs:
     secrets:
       # Secrets also need to be added
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      DIGDIR_RECORDS_AUTODEPLOY: ${{ secrets.DIGDIR_FDK_DEV_AUTODEPLOY }}
+      DIGDIR_RECORDS_AUTODEPLOY: ${{ secrets.DIGDIR_RECORDS_DEV_AUTODEPLOY }}
       SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 ```
 
