@@ -81,7 +81,7 @@ jobs:
           echo "event_name=${{ github.event.head_commit.message }}" | sed 1q >> $GITHUB_ENV
 
       - name: Log in to the Container registry
-        uses: docker/login-action@v1
+        uses: docker/login-action@v2
         with:
           registry: ghcr.io
           username: ${{ inputs.actor }}
