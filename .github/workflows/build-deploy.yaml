@@ -148,7 +148,7 @@ jobs:
           cat kubectlapply.yaml
 
       - name: Auth gcloud CLI for deploy
-        uses: google-github-actions/auth@v0
+        uses: google-github-actions/auth@v1
         with:
           credentials_json: ${{ secrets.DIGDIR_RECORDS_AUTODEPLOY }}
 
